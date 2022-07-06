@@ -1,0 +1,41 @@
+.CartWrapper {
+    max-width: 250px;
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+    .ImageBlock {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background-color: white;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .titleBlock {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 20px;
+        h4, p {
+            margin: 0;
+            text-overflow: ellipsis;
+            width: 100%;
+            overflow: hidden; 
+            white-space: nowrap; 
+        }
+    }
+    .priceBlock {
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,11 @@
+.LayoutWrapper {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    .RightSide {
+        width: 82%;
+        .Container {
+            padding: 15px 30px;
+        }
+    }
+}
